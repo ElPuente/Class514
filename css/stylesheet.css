@@ -232,7 +232,6 @@ label {
         display: none;
     }
     .sectionThree {
-        border: 2px solid blue;
         display:flex;
         justify-content: center;
         align-items: center;
