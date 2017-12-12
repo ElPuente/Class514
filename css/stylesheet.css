@@ -1,0 +1,245 @@
+/* reset all of our margins in headers and paragraphs */
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+html {
+	font-family: "helvetica neue", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 20px;
+}
+	/* -----------------   end    ----------------- */
+
+
+
+
+
+                    /* my navigation */
+.burger {
+	background-color: white;
+}
+
+
+	/* -----------------   end    ----------------- */
+
+
+                  /* my page contents */
+
+.dropdown {
+    display: none;
+}
+
+
+    /* page title */
+#page1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    position: absolute;
+    margin-top: 340px;
+    font-family: impact;
+    font-weight: bold;
+    font-size: 170px ;
+    text-align: center;
+    color: black;
+    text-shadow: 20px 10px 20px yellow;
+    -webkit-text-stroke: 4px yellow; 
+}
+
+
+
+    	/* navegation menu */
+#yellow-fonts {
+	color: #EFDF21;
+}
+
+#toggle {
+	display: none;
+}
+    	
+
+    /* images for background */
+.sect {
+  	height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secOne {
+	background-image: url("../img/foto1.png");
+	border: 1px solid white;
+}
+
+.secTwo {
+    background-image: url("../img/foto2.png");
+    border: 1px solid white;
+}
+
+.secThree {
+    background-image: url("../img/foto3.png");
+    border: 1px solid white;
+}
+
+
+
+
+/* subSection to position pnews, smenu and contact */
+/* news */
+.subSection {
+    height: 90%;
+    background-color: #4c4646; /* background color 'Black Cow' */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionThree {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    background-color: #6D6968; /* color name 'cloudy gray' */
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+ul {
+	background-color: white;
+}
+
+ul a {
+	text-decoration: none;
+	color: red;
+}
+
+label {
+	margin: 0 40px 0 0;
+	font-size: 25px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: center;
+}
+
+#image {
+    height: 100%;
+    width: 30%;
+}
+
+.posicion {
+    color: red;
+    text-align: right;
+}
+
+.posicion2 {
+    text-decoration: none;
+    color: blue;
+    margin-top: 270px;
+}
+
+.posicion3 {
+    color: green;
+}
+
+
+		/* flexbox */
+.menuOne {
+    background-color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+#image1 {
+    height: 100%;
+    width: 450px;
+    margin: 0;
+}
+    
+#image2 {
+    height: 100%;
+    width: 450px;
+    margin: 0;
+}
+
+#break {
+    background-color: yellow;
+    border:1px solid yellow;
+    color: black;
+    margin-left: 28px;
+}
+
+#lonche {
+    background-color: yellow;
+    border:1px solid yellow;
+    color: black;
+    margin-left: 40px;
+}
+
+    /* -----------------   end    ----------------- */
+
+
+
+
+
+					/* MEDIA QUERY */
+
+@media only screen and (max-width: 991px){
+    .burger {
+        background-color: yellow;
+    }
+    #firstImg {height: 100%;
+        width: 450px;
+        margin: 0;
+    }
+    
+    #secondImg {height: 100%;
+        width: 450px;
+        margin: 0;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+    .secTwo {
+        display: none;
+    }
+    .secThree {
+        display: none;
+    }
+    .title {
+        text-shadow: none;
+        font-size: 60px;
+     }
+     #introduccion {
+        font-size:15Px;
+        height:90%;
+     }
+    #firstImg #secondImg {
+        display: none;
+    }
+    .sectionThree {
+        border: 2px solid blue;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #menuTwo {
+        display: none;
+    }
+
+}
+
